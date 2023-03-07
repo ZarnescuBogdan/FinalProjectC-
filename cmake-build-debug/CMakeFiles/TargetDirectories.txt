@@ -1,0 +1,3 @@
+/Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug/CMakeFiles/Lab_9_live.dir
+/Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug/CMakeFiles/rebuild_cache.dir

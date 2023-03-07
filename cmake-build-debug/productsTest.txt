@@ -1,0 +1,3 @@
+1 SB-CJ Luni 50
+2 CJ-BV Marti 40
+3 CJ-GL Miercuri 100

@@ -1,0 +1,205 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Lab_9_live
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target Lab_9_live
+
+
+#############################################
+# Order-only phony target for Lab_9_live
+
+build cmake_object_order_depends_target_Lab_9_live: phony || CMakeFiles/Lab_9_live.dir
+
+build CMakeFiles/Lab_9_live.dir/main.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/main.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir
+
+build CMakeFiles/Lab_9_live.dir/Ticket/Ticket.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Ticket/Ticket.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Ticket/Ticket.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Ticket
+
+build CMakeFiles/Lab_9_live.dir/Repo/Repo.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Repo/Repo.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Repo/Repo.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Repo
+
+build CMakeFiles/Lab_9_live.dir/Tests/tests.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Tests/tests.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Tests/tests.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Tests
+
+build CMakeFiles/Lab_9_live.dir/Service/Service.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Service/Service.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Service/Service.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Service
+
+build CMakeFiles/Lab_9_live.dir/UI/UI.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/UI/UI.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/UI/UI.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/UI
+
+build CMakeFiles/Lab_9_live.dir/Repo/RepoInFile.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Repo/RepoInFile.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Repo/RepoInFile.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Repo
+
+build CMakeFiles/Lab_9_live.dir/Money/Money.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Money/Money.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Money/Money.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Money
+
+build CMakeFiles/Lab_9_live.dir/Repo/RepoMoney.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Repo/RepoMoney.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Repo/RepoMoney.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Repo
+
+build CMakeFiles/Lab_9_live.dir/Repo/RepoInFileMoney.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/Repo/RepoInFileMoney.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/Repo/RepoInFileMoney.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/Repo
+
+build CMakeFiles/Lab_9_live.dir/TicketValidator/TicketValidator.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/TicketValidator/TicketValidator.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/TicketValidator/TicketValidator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/TicketValidator
+
+build CMakeFiles/Lab_9_live.dir/MoneyValidator/MoneyValidator.cpp.o: CXX_COMPILER__Lab_9_live_Debug /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/MoneyValidator/MoneyValidator.cpp || cmake_object_order_depends_target_Lab_9_live
+  DEP_FILE = CMakeFiles/Lab_9_live.dir/MoneyValidator/MoneyValidator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab_9_live.dir/MoneyValidator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lab_9_live
+
+
+#############################################
+# Link the executable Lab_9_live
+
+build Lab_9_live: CXX_EXECUTABLE_LINKER__Lab_9_live_Debug CMakeFiles/Lab_9_live.dir/main.cpp.o CMakeFiles/Lab_9_live.dir/Ticket/Ticket.cpp.o CMakeFiles/Lab_9_live.dir/Repo/Repo.cpp.o CMakeFiles/Lab_9_live.dir/Tests/tests.cpp.o CMakeFiles/Lab_9_live.dir/Service/Service.cpp.o CMakeFiles/Lab_9_live.dir/UI/UI.cpp.o CMakeFiles/Lab_9_live.dir/Repo/RepoInFile.cpp.o CMakeFiles/Lab_9_live.dir/Money/Money.cpp.o CMakeFiles/Lab_9_live.dir/Repo/RepoMoney.cpp.o CMakeFiles/Lab_9_live.dir/Repo/RepoInFileMoney.cpp.o CMakeFiles/Lab_9_live.dir/TicketValidator/TicketValidator.cpp.o CMakeFiles/Lab_9_live.dir/MoneyValidator/MoneyValidator.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  OBJECT_DIR = CMakeFiles/Lab_9_live.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Lab_9_live
+  TARGET_PDB = Lab_9_live.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug && "/Users/bogdanzarnescu/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug && "/Users/bogdanzarnescu/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live -B/Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/cmake-build-debug
+
+build all: phony Lab_9_live
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/CMakeLists.txt /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/bogdanzarnescu/Desktop/An1/Facultate-OOP/Lab-10-live/CMakeLists.txt /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/bogdanzarnescu/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
