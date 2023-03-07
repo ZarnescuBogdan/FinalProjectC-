@@ -1,4 +1,4 @@
-# FinalProjectC-
+# FinalProjectC++
   O companie de transport dezvolta o aplicatie pentru achizitionarea de bilete. La intrarea in autogara, pasagerii pot cumpara bilete pentru diferite curse ale saptamanii. Fiecare cursa este identificata prin cod (de ex. SB-CJ), ziua saptamanii (Luni, Marti...) și preț. Un client poate achizitiona un bilet (daca sunt bilete disponibile pentru cursa respectiva) folosind doar monezi de anumite valori. Dacă clientul introduce o bancnota de X lei, solicită un bilet de Y lei, aplicatia îi va putea da rest (X - Y lei) doar dacă dispune de această sumă în monezi de valori corespunzătoare. Dezvoltați o aplicație care să permită achiziția unui bilet.
   
   Să se rezolve problema de mai sus:
